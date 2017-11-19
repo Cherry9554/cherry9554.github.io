@@ -1,0 +1,16 @@
+group,axis,value,description
+Young,COE Remaining,62.9896907216495,The average COE remaining is 6.434 years.
+Young,Price,84.2522243713733,The average price is $76827.
+Young,Mileage,0,The average mileage is 38678km.
+Young,Engine Power,43.3034001940389,The average engine power is 1933.2cc.
+Young,Depreciation,100,The average depreciation is $24057 per year.
+Median,COE Remaining,16.9072164948454,The average COE remaining is 3.305 years.
+Median,Price,52.4379110251451,The average price is $56267.
+Median,Mileage,24.7973540813837,The average mileage is 93560km.
+Median,Engine Power,46.8367139730602,The average engine power is 1995.84cc.
+Median,Depreciation,60.3362053383142,The average depreciation is $17474 per year.
+Old,COE Remaining,51.620029455081,The average COE remaining is 5.662 years.
+Old,Price,56.4827852998066,The average price is $58881.
+Old,Mileage,31.5300783473853,The average mileage is 108461km.
+Old,Engine Power,50.1387604070305,The average engine power is 2054.38cc.
+Old,Depreciation,50.9851177923721,The average depreciation is $15922 per year.

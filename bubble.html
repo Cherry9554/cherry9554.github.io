@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Bubble Chart</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/button-style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <style type="text/css">
+
+      circle {
+        stroke: white;
+        stroke-width: 2px;
+        opacity: .8;
+      }
+      .btn-group {
+        margin-left: 330px;
+      }
+      .label {
+        fill: black;
+        overflow: auto;
+        font-size: 13px;
+      }
+    </style>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet">
+    
+  </head>
+
+  <body>
+        <a href="index.html"><i class="material-icons">home</i></a>
+        <a href="treemap.html"><i class="material-icons">public</i></a>
+        <a href="bubble.html"><i class="material-icons">bubble_chart</i><a/>
+        <a href="scattermatrix.html"><i class="material-icons">attach_money</i></a>
+        <a href="radar/radarindex.html"><i class="material-icons">highlight</i></a>
+        <style>
+
+            h2 {
+                color: steelblue;
+                font-size: 2em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                font-weight: 500;
+                line-height: 1.1;
+                font-family: "Open Sans", sans-serif;
+            }
+
+            p{
+                font-family: "Open Sans", sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                color: black;
+            }
+
+            .button {
+              display: inline-block;
+              border-radius: 4px;
+              background-color: #f4511e;
+              border: none;
+              color: #FFFFFF;
+              text-align: center;
+              font-size: 12px;
+              padding: 20px;
+              width: 150px;
+              height: 50px;
+              transition: all 0.5s;
+              cursor: pointer;
+              margin: 5px;
+            }
+
+            .button span {
+              cursor: pointer;
+              display: inline-block;
+              position: relative;
+              transition: 0.5s;
+            }
+
+            .button span:after {
+              content: '»';
+              position: absolute;
+              opacity: 0;
+              top: 0;
+              right: -20px;
+              transition: 0.5s;
+            }
+
+            .button:hover span {
+              padding-right: 25px;
+            }
+
+            .button:hover span:after {
+              opacity: 1;
+              right: 0;
+            }
+
+        </style>
+    
+    <h2 id="subheader">Market Analysis on Car Brands & Vehicle Types</h2>
+
+        
+        <p>Select Vehicle Type:</p>
+        <div id='drop'></div>
+        <br>
+        <p>Average Price (Low -> High)</p><img src="images/OrRd.png" width="100%" height="20" alt="Reds" style="max-width:30%;">
+        
+      <div id='chart'></div>
+      <script src="js/bubble.js"></script>
+
+        <style>
+          #byte_content {
+            margin: 5px 0;
+            max-height: 100px;
+            overflow-y: auto;
+            overflow-x: hidden;
+          }
+          #byte_range { margin-top: 5px; }
+        </style>
+
+        <div id="byte_range"></div>
+        <div id="byte_content"></div>
+    
+    
+    
+    
+    
+  </body>
+</html>

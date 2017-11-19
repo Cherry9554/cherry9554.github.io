@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Treemap</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/button-style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <style type="text/css">
+
+      circle {
+        stroke: white;
+        stroke-width: 2px;
+        opacity: .8;
+      }
+      .btn-group {
+        margin-left: 330px;
+      }
+      .label {
+        fill: black;
+        overflow: auto;
+        font-size: 13px;
+      }
+    </style>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet">
+    
+  </head>
+
+  <body>
+        <a href="index.html"><i class="material-icons">home</i></a>
+        <a href="treemap.html"><i class="material-icons">public</i></a>
+        <a href="bubble.html"><i class="material-icons">bubble_chart</i><a/>
+        <a href="scattermatrix.html"><i class="material-icons">attach_money</i></a>
+        <a href="radar/radarindex.html"><i class="material-icons">highlight</i></a>
+        <style>
+
+            h2 {
+                color: steelblue;
+                font-size: 2em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                font-weight: 500;
+                line-height: 1.1;
+                font-family: "Open Sans", sans-serif;
+            }
+
+            p{
+                font-family: "Open Sans", sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                color: black;
+            }
+
+            .button {
+              display: inline-block;
+              border-radius: 4px;
+              background-color: #f4511e;
+              border: none;
+              color: #FFFFFF;
+              text-align: center;
+              font-size: 12px;
+              padding: 20px;
+              width: 150px;
+              height: 50px;
+              transition: all 0.5s;
+              cursor: pointer;
+              margin: 5px;
+            }
+
+            .button span {
+              cursor: pointer;
+              display: inline-block;
+              position: relative;
+              transition: 0.5s;
+            }
+
+            .button span:after {
+              content: '»';
+              position: absolute;
+              opacity: 0;
+              top: 0;
+              right: -20px;
+              transition: 0.5s;
+            }
+
+            .button:hover span {
+              padding-right: 25px;
+            }
+
+            .button:hover span:after {
+              opacity: 1;
+              right: 0;
+            }
+
+        </style>
+    
+    <h2 id="subheader">Overall Resale Market Analysis</h2>
+
+<div class='tableauPlaceholder' id='viz1511079164719' style='position: relative'><noscript><a href='#'><img alt='Treemap of Car Brands ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DataTsunami_treemap&#47;TreemapofCarBrands&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DataTsunami_treemap&#47;TreemapofCarBrands' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DataTsunami_treemap&#47;TreemapofCarBrands&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1511079164719');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+        <style>
+          #byte_content {
+            margin: 5px 0;
+            max-height: 100px;
+            overflow-y: auto;
+            overflow-x: hidden;
+          }
+          #byte_range { margin-top: 5px; }
+        </style>
+
+        <div id="byte_range"></div>
+        <div id="byte_content"></div>
+    
+    
+    
+    
+    
+  </body>
+</html>
