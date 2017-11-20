@@ -266,7 +266,7 @@
 	                trigger: 'manual',
 	                html : true,
 	                content: function() { 
-	                    return "Average Price: " + Math.round(d.AvgPrice) + "<br/>Number of Cars: " + d.Counts;
+	                    return "Brand: " + d.VehicleType + "<br/>Average Price: " + Math.round(d.AvgPrice) + "<br/>Number of Cars: " + d.Counts;
 	                    }
 	                });
 	            $(this).popover('show')
